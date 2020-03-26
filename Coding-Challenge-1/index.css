@@ -1,0 +1,68 @@
+div {
+  justify-content: center;
+
+}
+
+button:hover{
+  cursor: pointer;
+
+
+}
+h1{
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  h1
+  {
+    justify-content: center;
+  }
+  .js-query{
+    justify-content: center;
+margin: auto;
+  }
+}
+
+@media (min-width:600px) and (max-width: 990px) {
+  h1
+  {
+    justify-content: center;
+    text-align: center;
+
+  }
+  img{
+    justify-content: right;
+    padding-left: 40%;}
+
+  form{
+    justify-content: center;
+    padding-left: 35%;
+  }
+  p{
+    text-align: center;
+
+  }
+
+
+}
+
+@media (min-width: 990px) {
+  h1
+  {
+    justify-content: center;
+    text-align: center;
+
+  }
+  img{
+    justify-content: center;
+    padding-left: 40%;}
+
+  form{
+    justify-content: center;
+    padding-left: 35%;
+  }
+  p{
+    text-align: center;
+
+  }
+}
